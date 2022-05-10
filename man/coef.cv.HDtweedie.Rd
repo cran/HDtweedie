@@ -26,12 +26,12 @@ cross-validation to get coefficients or make coefficient predictions.}
 \author{Wei Qian, Yi Yang and Hui Zou\cr
 Maintainer: Wei Qian  <weiqian@stat.umn.edu>}
 \references{
-Qian, W., Yang, Y., Yang, Y. and Zou, H. (2013), ``Tweedie's Compound
-    Poisson Model With Grouped Elastic Net,'' submitted to \emph{Journal of Computational and Graphical Statistics}.\cr
+Qian, W., Yang, Y., Yang, Y. and Zou, H. (2016), ``Tweedie's Compound
+    Poisson Model With Grouped Elastic Net,'' \emph{Journal of Computational and Graphical Statistics}, 25, 606-625.\cr
 
 Friedman, J., Hastie, T., and Tibshirani, R. (2010), "Regularization paths for generalized
 linear models via coordinate descent," \emph{Journal of Statistical Software, 33, 1.}\cr
-\url{http://www.jstatsoft.org/v33/i01/}}
+}
 
 \seealso{\code{\link{cv.HDtweedie}}, and \code{\link{predict.cv.HDtweedie}} methods.}
 \examples{

@@ -56,8 +56,8 @@ list with the ingredients of the cross-validation fit.
 \author{Wei Qian, Yi Yang and Hui Zou\cr
 Maintainer: Wei Qian  <weiqian@stat.umn.edu>}
 \references{
-Qian, W., Yang, Y., Yang, Y. and Zou, H. (2013), ``Tweedie's Compound
-    Poisson Model With Grouped Elastic Net,'' submitted to \emph{Journal of Computational and Graphical Statistics}.\cr
+Qian, W., Yang, Y., Yang, Y. and Zou, H. (2016), ``Tweedie's Compound
+    Poisson Model With Grouped Elastic Net,'' \emph{Journal of Computational and Graphical Statistics}, 25, 606-625.\cr
 }
 
 \seealso{\code{\link{HDtweedie}}, \code{\link{plot.cv.HDtweedie}}, \code{\link{predict.cv.HDtweedie}}, and \code{\link{coef.cv.HDtweedie}} methods.}

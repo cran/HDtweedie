@@ -5,6 +5,12 @@ cv.HDtweedie,
 predict.HDtweedie,
 coef.HDtweedie)
 
+importFrom("grDevices", "gray.colors")
+importFrom("graphics", "abline", "axis", "par", "plot.default",
+             "points", "segments")
+importFrom("methods", "cbind2", "rbind2")
+importFrom("stats", "approx", "coef", "predict", "weighted.mean")
+
 S3method("print","HDtweedie")
 S3method("coef","HDtweedie")
 S3method("coef","cv.HDtweedie")

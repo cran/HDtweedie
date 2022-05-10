@@ -75,9 +75,9 @@
 !    School of Statistics, University of Minnesota.
 ! 
 ! REFERENCES:
-!    Qian, W., Yang, Y., Yang, Y. and Zou, H. (2013). 
+!    Qian, W., Yang, Y., Yang, Y. and Zou, H. (2016).
 !    Tweedie's Compound Poisson Model With Grouped Elastic Net
-!    submitted to Journal of Computational and Graphical Statistics.
+!     Journal of Computational and Graphical Statistics.
 
 
 ! --------------------------------------------------
@@ -124,7 +124,7 @@ idx,nbeta,alam,npass,jerr)
     ! - - - local declarations - - -
     DOUBLE PRECISION, DIMENSION (:), ALLOCATABLE :: xmean
     DOUBLE PRECISION, DIMENSION (:), ALLOCATABLE :: xnorm
-    INTEGER :: ju=0 
+    INTEGER :: ju
     DOUBLE PRECISION:: vtt(nobs) 
     DOUBLE PRECISION:: yt(nobs) 
     DOUBLE PRECISION:: max_gam 
@@ -176,6 +176,7 @@ idx,nbeta,alam,npass,jerr)
 
 ! - - - begin - - -
 ! - - - allocate variables - - -
+    ju=0
     ALLOCATE(b(0:nvars),STAT=jerr)
     ALLOCATE(oldbeta(0:nvars),STAT=ierr)
     jerr=jerr+ierr
